@@ -1,0 +1,21 @@
+#container{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.cadastros{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    border: 1px solid rgb(201, 201, 201);
+}
+label{
+    font-weight: bold;
+    display: inline-block;
+    width: 10%;
+}
