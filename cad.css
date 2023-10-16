@@ -1,21 +1,28 @@
-#container{
-    background-color: white;
-    width: 85%;
-    margin: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
-}
-.cadastros{
+.cadastros {
     display: inline-block;
-    margin: 5px;
+    margin: 5px 5px 10px 5px; 
     padding: 10px;
     border-radius: 5px;
-    width: 30%;
+    width: calc(33.33% - 10px); 
     border: 1px solid rgb(201, 201, 201);
 }
-label{
+
+label {
     font-weight: bold;
     display: inline-block;
     width: 10%;
+    text-align: right; 
+}
+
+#container {
+    text-align: center;
+
+}
+
+#submit-button {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 17px;
 }
