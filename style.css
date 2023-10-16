@@ -1,9 +1,22 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
     background-color: #a7a7a7;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+  main {
+    flex: 1;
+}
+
 #container{
     background-color: white;
     width: 85%;
@@ -38,12 +51,15 @@ h1,h2{
     padding: 15px;
 }
 
-footer {
+
+  
+
+  
+
+  
+  footer {
     background-color: #333;
     color: #fff;
-    text-align:center;
-    padding: 0 0;
-    position: absolute;
-    width:100%;
-    height: auto;
-}
+    text-align: center;
+    padding: 10px 0;
+  }
